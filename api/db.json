@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "pizza",
+      "description": "yummy pizza",
+      "comments": "pizza is superb"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "description": "Fatty Veggie Burger",
+      "comments": "Great Burger Dish with smashed potatoes."
+    },
+    {
+      "id": 3,
+      "name": "Pasta",
+      "description": "Yummy white pasta with mik cream, peppersssss and golden corn.",
+      "comments": "Yummy and Tasty pasta!!\nNeed to try it."
+    },
+    {
+      "id": 4,
+      "name": "xx",
+      "description": "ahfkdak",
+      "comments": "smfl;asdk'"
+    }
+  ]
+}

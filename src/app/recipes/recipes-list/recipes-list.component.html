@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="well" *ngFor="let recipe of recipes">
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right list-inline m-0">
+            <li class="list-inline-item"><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" (click)="onEdit(recipe)"><span class="glyphicon glyphicon-pencil"></span><i class="fa fa-edit"></i></button></li>
+            <li class="list-inline-item"><button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" (click)="onDelete(recipe.id)"><span class="glyphicon glyphicon-trash"></span><i class="fa fa-trash"></i></button></li>
+        </ul>
+    </div>
+    <label>Dish Name</label> <p>{{recipe.name}}</p>
+    <label>Description</label><p>{{recipe.description}}</p>
+    <label>Comments</label><p>{{recipe.comments}}</p>
+  </div>
+
+</div>

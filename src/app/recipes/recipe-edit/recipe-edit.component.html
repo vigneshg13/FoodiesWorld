@@ -1,0 +1,40 @@
+<div class="container">
+        <div class="container-fluid">
+                <div class="col-xs-12">
+                        <div [formGroup]="recipeEditForm">
+                            <div class="row">
+                                <label>
+                                    ID:
+                                    <input type="number" formControlName="id" class="form-control">
+                                  </label>
+                            </div>
+                            <div class="row">
+                                <label>
+                                    Dish Name:
+                                    <input type="text" formControlName="dishName" class="form-control">
+                                  </label>
+                            </div>
+                            <div class="row">
+                                <label>
+                                    Description:
+                                    <textarea formControlName="desc" class="form-control">
+                                    </textarea>
+                                  </label>
+                            </div>
+                            <div class="row">
+                                <label>
+                                    Comments:
+                                    <textarea formControlName="comments" class="form-control">
+                                    </textarea>
+                                  </label>
+                            </div>      
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <button class="btn btn-primary" type="button" (click)="editRecipe()">Update</button>
+                                    <button class="btn btn-danger" type="button" (click)="close()">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
